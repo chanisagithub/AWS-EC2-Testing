@@ -1,3 +1,11 @@
 template-file-path: xrayTemplate.yaml
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Resources": {
+    "GitSyncSetupWaitCondition": {
+      "Type": "AWS::CloudFormation::WaitConditionHandle"
+    }
+  }
+}
 parameters: {}
 tags: {}
